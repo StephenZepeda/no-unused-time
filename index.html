@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>No Unused Time</title>
+    <meta
+      name="description"
+      content="No Unused Time publishes short motivational videos you already made to your own social accounts."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="./">No Unused Time</a>
+      <nav>
+        <a href="./terms/">Terms</a>
+        <a href="./privacy/">Privacy</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>No unused time.</h1>
+        <p>
+          A private publishing tool. You make the video. You approve the post.
+          Then it goes to your TikTok, YouTube, Instagram, or Facebook.
+        </p>
+      </section>
+      <section class="card">
+        <p class="muted">What it does</p>
+        <p>
+          Connect your own accounts. Tokens stay on your machine. Nothing posts
+          until you hit publish.
+        </p>
+      </section>
+    </main>
+    <footer>© <span id="y"></span> No Unused Time</footer>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
